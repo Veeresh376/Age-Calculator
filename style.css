@@ -1,0 +1,65 @@
+body{
+    background-color: silver;
+}
+.container{
+    border: none;
+    width: 400px;
+    position:absolute;
+    margin-left: 35%;
+    margin-top: 7%;
+    padding: 50px 30px;
+    
+}
+h2{
+    margin-left: 32%;
+}
+
+.input{
+    background-color:gray;
+    padding: 30px 25px;
+    border-radius: 5px;
+    
+    
+}
+input{
+    width: 200px;
+    padding: 18px;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 8px;
+}
+button{
+    width: 100px;
+    padding: 18px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    float: right;
+    
+    
+}
+button:hover{
+    cursor: pointer;
+}
+.output{
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+   
+.output div{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+   display: grid;
+   place-items: center;
+   padding: 5px;
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+}
